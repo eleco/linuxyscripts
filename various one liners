@@ -1,0 +1,2 @@
+# batch export envs from file
+export $(grep -v '^#' <my file> | xargs -0)
